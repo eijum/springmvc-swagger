@@ -31,8 +31,6 @@ public class SwaggerConfig {
                 .apiInfo(apiInfo());
     }
 
-
-
     public ApiInfo apiInfo(){
         return new ApiInfoBuilder().version("1.0")
                 .title("springmvc-swagger")
@@ -41,6 +39,5 @@ public class SwaggerConfig {
                 .description("接口文档")
                 .build();
     }
-
 
 }
